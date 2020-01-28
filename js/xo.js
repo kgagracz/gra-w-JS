@@ -38,7 +38,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 winningP.innerText = currentClass + winningMessage;
                 winningP.style.backgroundColor = 'lightgreen';
                 document.getElementById('feta').play();
+                document.querySelector('img').style.display = 'inline-block';
             }
+            // else {
+            //     winningP.innerText = "REMIS"
+            // }
         }, {once: true})
 
         

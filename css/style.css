@@ -41,3 +41,8 @@ table td button {
     text-align: center;
 }
 
+
+img {
+    display: none;
+    width: 20%;
+}
