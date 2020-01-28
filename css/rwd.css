@@ -1,0 +1,19 @@
+@media (max-width: 350px) {
+
+    table {
+        width: 200px;
+        height: 200px;
+        border-radius: 4px;
+        margin: auto;
+    }
+
+    .winning-message {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    #winning-message {
+        width: 100%;
+        margin: auto;
+    }
+}
