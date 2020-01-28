@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+table {
+    background-color: lightgray;
+    height: 500px;
+    width: 500px;
+}
+
+table td {
+    border: solid 3px black;
+    cursor: pointer;
+}
+
+table td button {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
