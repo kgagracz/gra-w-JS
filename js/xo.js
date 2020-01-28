@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         gameFields[i].addEventListener('click',  () => {
 
             const currentClass = didPlayerClicked ? circleClass : xClass;
-            console.log(currentClass);
 
             gameFields[i].classList.add(currentClass);
 
@@ -38,6 +37,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (checkWin(currentClass)) {
                 winningP.innerText = currentClass + winningMessage;
                 winningP.style.backgroundColor = 'lightgreen';
+                document.getElementById('feta').play();
             }
         }, {once: true})
 
